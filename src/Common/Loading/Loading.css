@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1199px) {
+    .loader {
+        display: inline-block;
+    }
+
+    .loader_ball {
+        margin-top: 1em;
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        background-color: white;
+        margin-inline: 3px;
+        border-radius: 50%;
+        animation: bounce 325ms alternate infinite;
+    }
+
+    .loader_ball:nth-child(2) {
+        animation-delay: 150ms;
+    }
+
+    .loader_ball:nth-child(3) {
+        animation-delay: 300ms;
+    }
+
+    @keyframes bounce {
+        from {
+            transform: scaleX(1.25);
+        }
+
+        to {
+            transform: translateY(-15px) scaleX(1);
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .loader {
+        display: inline-block;
+    }
+
+    .loader_ball {
+        margin-top: 2em;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-color: white;
+        margin-inline: 5px;
+        border-radius: 50%;
+        animation: bounce 325ms alternate infinite;
+    }
+
+    .loader_ball:nth-child(2) {
+        animation-delay: 150ms;
+    }
+
+    .loader_ball:nth-child(3) {
+        animation-delay: 300ms;
+    }
+
+    @keyframes bounce {
+        from {
+            transform: scaleX(1.25);
+        }
+
+        to {
+            transform: translateY(-20px) scaleX(1);
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.homeStyle {
+    height: 91vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeTitle {
+    color: black;
+    font-size: 5em;
+    font-weight: bold;
+    letter-spacing: .2em;
+    text-shadow: .03em .03em .1em rgb(255, 255, 255);
+    -webkit-text-stroke: .015em rgb(113, 113, 113);
+}
+
+@media only screen and (min-width: 1200px) {
+    .homeStyle {
+        height: 91vh;
+        width: 100vw;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 .5em .5em inset rgb(126, 126, 126);
+    }
+
+    .homeTitle {
+        color: black;
+        font-size: 10em;
+        font-weight: bold;
+        letter-spacing: .5em;
+        text-shadow: .03em .03em .1em rgb(255, 255, 255);
+        -webkit-text-stroke: .015em rgb(113, 113, 113);
+    }
+}

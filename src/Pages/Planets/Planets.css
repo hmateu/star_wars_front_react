@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1199px) {
+    .planetsStyle {
+        padding-top: 2em;
+        height: 91vh;
+        width: 100vw;
+        background-color: black;
+        box-shadow: 0 .5em .5em inset rgb(126, 126, 126);
+    }
+
+    .titlePlanets {
+        font-size: 2em;
+        margin-bottom: .5em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .planetsStyle {
+        padding-top: 2em;
+        height: 91vh;
+        width: 100vw;
+        background-color: black;
+        box-shadow: 0 .5em .5em inset rgb(126, 126, 126);
+    }
+
+    .titlePlanets {
+        font-size: 4em;
+        margin-bottom: .5em;
+    }
+
+    .planetsList {
+        font-size: 2em;
+    }
+}

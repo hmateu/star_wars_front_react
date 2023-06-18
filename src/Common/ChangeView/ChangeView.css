@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1199px) {
+    .changeViewStyle {
+        height: 4vh;
+        width: 15vw;
+        background-color: rgb(79, 79, 79);
+        box-shadow: inset -.2em -.2em .2em black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .3s;
+        font-size: .5em;
+        border-radius: .5em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .changeViewStyle {
+        height: 6vh;
+        width: 10vw;
+        background-color: rgb(79, 79, 79);
+        box-shadow: inset -.2em -.2em .2em black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .3s;
+        font-size: 1.5em;
+        letter-spacing: .1em;
+        border-radius: .5em;
+    }
+
+    .changeViewStyle:hover {
+        transition: .3s;
+        background-color: rgb(101, 101, 101);
+        cursor: url("./img/hoverCursor.png"), pointer;
+    }
+}

@@ -1,0 +1,45 @@
+.allCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2em;
+}
+
+.charactersStyle {
+    padding-top: 2em;
+    height: 91vh;
+    width: 100vw;
+    background-color: black;
+    box-shadow: 0 .5em .5em inset rgb(126, 126, 126);
+}
+
+.titleCharacters {
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+@media only screen and (min-width: 1200px) {
+    .allCards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        row-gap: 4em;
+    }
+
+    .charactersStyle {
+        padding-top: 2em;
+        height: 91vh;
+        width: 100vw;
+        background-color: black;
+        box-shadow: 0 .5em .5em inset rgb(126, 126, 126);
+    }
+
+    .titleCharacters {
+        font-size: 4em;
+        margin-bottom: .5em;
+    }
+
+    .charactersList {
+        font-size: 2em;
+    }
+}
